@@ -2,6 +2,11 @@
 
 Утилита для Linux, предназначенная для обнаружения видеокарт и запуска приложений на выбранном графическом процессоре.
 
+**Разработка:** проект создан при помощи ChatGPT.  
+**Среда разработки:** Ubuntu 24.04.
+
+**Важно:** приложение разработано и проверено в Ubuntu 24.04. Я не гарантирую его работоспособность на других версиях Linux и других системах.
+
 ## Features / Возможности
 
 - Обнаружение видеокарт Intel, NVIDIA и AMD.
@@ -42,5 +47,20 @@ python3 main.py
 Приложение обнаруживает видеокарты Intel, NVIDIA и AMD. Проверка запуска приложений на выбранном GPU поддерживается для Intel и NVIDIA. Запуск приложений на AMD пока не реализован.
 
 ## License / Лицензия
+
+MIT License.
+
+---
+
+## English
+
+A Linux utility for detecting GPUs and launching applications on a selected graphics processor.
+
+**Development:** Created with the assistance of ChatGPT.  
+**Development environment:** Ubuntu 24.04.
+
+**Disclaimer:** The application was developed and tested on Ubuntu 24.04. I do not guarantee that it will work on other Linux distributions, versions, or systems.
+
+## License
 
 MIT License.
