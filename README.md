@@ -1,74 +1,45 @@
 # GPU-CPU Switcher
 
-**English:** A Linux utility for detecting GPUs and launching applications on a selected graphics processor.
+Утилита для Linux, предназначенная для обнаружения видеокарт и запуска приложений на выбранном графическом процессоре.
 
-**Русский:** Утилита для Linux, предназначенная для обнаружения видеокарт и запуска приложений на выбранном графическом процессоре.
+## Features / Возможности
 
----
-
-## 🇬🇧 English
-
-### Features
-- Detects Intel, NVIDIA and AMD GPUs.
-- Launches applications using a selected GPU.
-- Checks the OpenGL renderer.
-- Automatically detects installed applications.
-- Supports custom applications.
-- Dark and light themes.
-- Optional MangoHud integration.
-
-### Requirements
-- Linux
-- Python 3
-- PyQt6
-- pciutils
-- mesa-utils
-
-### Installation (Ubuntu)
-
-sudo apt update
-sudo apt install python3-pyqt6 pciutils mesa-utils
-
-### Launch
-
-python3 main.py
-
-### Limitations
-GPU launch verification currently supports Intel and NVIDIA. AMD detection is available, but launch verification is not implemented yet.
-
----
-
-## 🇷🇺 Русский
-
-### Возможности
 - Обнаружение видеокарт Intel, NVIDIA и AMD.
-- Запуск приложений на выбранной видеокарте.
-- Проверка OpenGL.
+- Запуск приложений на выбранном GPU.
+- Проверка OpenGL-рендерера.
 - Автоматическое обнаружение установленных приложений.
-- Добавление собственных приложений.
-- Светлая и тёмная темы.
-- Поддержка MangoHud.
+- Добавление пользовательских приложений.
+- Светлая и тёмная темы оформления.
+- Дополнительная интеграция с MangoHud.
 
-### Требования
+## Requirements / Требования
+
 - Linux
 - Python 3
 - PyQt6
 - pciutils
 - mesa-utils
 
-### Установка (Ubuntu)
+## Installation / Установка (Ubuntu)
 
+Открой терминал и выполни команды по очереди:
+
+```bash
 sudo apt update
-sudo apt install python3-pyqt6 pciutils mesa-utils
+sudo apt install git python3 python3-pyqt6 pciutils mesa-utils
+git clone https://github.com/nonamex143/GPU-CPU-Switcher.git
+cd GPU-CPU-Switcher
+```
 
-### Запуск
+## Launch / Запуск
 
+```bash
 python3 main.py
+```
 
-### Ограничения
-Проверка запуска пока поддерживает Intel и NVIDIA. Видеокарты AMD обнаруживаются, но проверка запуска для них ещё не реализована.
+## Limitations / Ограничения
 
----
+Приложение обнаруживает видеокарты Intel, NVIDIA и AMD. Проверка запуска приложений на выбранном GPU поддерживается для Intel и NVIDIA. Запуск приложений на AMD пока не реализован.
 
 ## License / Лицензия
 
