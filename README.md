@@ -64,3 +64,7 @@ A Linux utility for detecting GPUs and launching applications on a selected grap
 ## License
 
 MIT License.
+
+## Screenshots / Скриншоты
+
+![GPU-CPU Switcher](screenshots/main-window.png)
