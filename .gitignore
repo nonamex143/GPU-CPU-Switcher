@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+main_backup.py
+main_before_*.py
+main_old.py
+icon.jpeg
