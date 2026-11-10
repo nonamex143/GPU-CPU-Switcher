@@ -66,4 +66,5 @@ A Linux utility for detecting GPUs and launching applications on a selected grap
 MIT License.
 ## Скриншот приложения
 <img width="648" height="826" alt="image" src="https://github.com/user-attachments/assets/6f39b210-8406-4fe0-a77b-a0b290c1cef1" />
+<img width="648" height="826" alt="image" src="https://github.com/user-attachments/assets/c0a18409-dbb7-4a68-917e-c8610c161149" />
 
